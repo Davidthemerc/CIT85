@@ -10,3 +10,22 @@ li {
   font-weight: bold;
   color: green;
 }
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: red;
+  font-weight: bold;
+}
+
+a:hover {
+  color: purple;
+  font-style: italic;
+}
+
+a:active {
+  color: yellow;
+  font-size: 2rem;
+}
