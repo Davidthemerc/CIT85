@@ -1,16 +1,3 @@
-li {
-  color: #99aab5;
-}
-
-#otheritem {
-  color: blue;
-}
-
-.listitem {
-  font-weight: bold;
-  color: green;
-}
-
 a:link {
   color: green;
 }
