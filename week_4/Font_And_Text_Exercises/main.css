@@ -1,0 +1,40 @@
+.serif {
+  font-family: serif;
+}
+
+.sanserif {
+  font-family: sans-serif;
+}
+
+.google {
+  font-family: Trirong, seif;
+}
+
+.fancy {
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.spacing {
+  word-spacing: 5px;
+}
+
+h1 {
+  text-shadow: 2px 2px tomato;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.indent {
+  text-indent: 2rem;
+}
