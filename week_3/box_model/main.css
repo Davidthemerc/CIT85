@@ -1,0 +1,15 @@
+.inline {
+  display: inline;
+  border: solid;
+  border-width: 1px;
+  padding: 3px;
+  margin: 3px;
+}
+
+.block {
+  display: block;
+  border: solid;
+  border-width: 1px;
+  padding: 3px;
+  margin: 3px;
+}
