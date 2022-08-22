@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+.outer {
+  border: 3px red solid;
+  width: 50%;
+  height: 300px;
+}
+
+.first {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.second {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+div > div {
+  height: 150px;
+  display: flex;
+}
+
+.darkblue {
+  background-color: darkblue;
+  width: 66%;
+}
+
+.blue {
+  background-color: blue;
+  width: 34%;
+}
+
+.lightblue {
+  background-color: lightblue;
+  width: 34%;
+}
+
+.gray {
+  background-color: gray;
+  width: 66%;
+}
