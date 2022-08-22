@@ -1,0 +1,36 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  border: 2px red solid;
+  width: 100%;
+}
+
+span {
+  margin: 0.5rem;
+}
+
+p {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.items {
+  border: 2px red solid;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+@media (min-width: 768px) {
+  section {
+    display: flex;
+    flex-direction: row;
+  }
+  .menu {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: fit-content;
+  }
+}
