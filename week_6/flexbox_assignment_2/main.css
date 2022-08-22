@@ -1,0 +1,15 @@
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  border: 2px black solid;
+  width: 400px;
+  height: 100px;
+  flex-grow: 1;
+}
+
+.extra {
+  flex-grow: 2;
+}
