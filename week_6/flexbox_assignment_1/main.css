@@ -1,0 +1,19 @@
+.flex {
+  display: flex;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 125px;
+  border: 1px black solid;
+  background-color: orangered;
+  margin: 5px;
+  flex-grow: 1;
+  font-size: 32px;
+}
+
+.extra {
+  flex-grow: 2;
+}
