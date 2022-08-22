@@ -1,0 +1,52 @@
+html {
+  border: 2px red solid;
+  height: 99.5%;
+}
+
+.square {
+  display: flex;
+  background-color: orangered;
+  width: 100px;
+  height: 100px;
+  margin: 1rem;
+  border: 2px black solid;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  height: 900px;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.upper {
+  align-items: flex-start;
+}
+
+.middle {
+  align-items: center;
+}
+
+.lower {
+  align-items: flex-end;
+}
+
+.left {
+  justify-content: flex-start;
+}
+
+.center {
+  justify-content: center;
+}
+
+.right {
+  justify-content: flex-end;
+}
