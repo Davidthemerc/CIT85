@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+span {
+  color: white;
+}
+
+.all {
+  width: 50%;
+  display: flex;
+}
+
+.red {
+  border: 2px red solid;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.one {
+  background-color: darkblue;
+  height: 100%;
+  width: 40%;
+}
+
+.two {
+  background-color: dodgerblue;
+  height: 50%;
+}
+
+.three {
+  background-color: lightblue;
+  height: 50%;
+}
