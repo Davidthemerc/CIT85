@@ -1,0 +1,54 @@
+div {
+  border: 1px black solid;
+  font-weight: bold;
+  font-size: 24px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.two {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.three {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.red {
+  width: 100%;
+  background-color: orangered;
+}
+
+.cyan {
+  width: 60%;
+  background-color: lightblue;
+}
+
+.lightgreen {
+  width: 40%;
+  background-color: palegreen;
+}
+
+.yellow {
+  width: 45%;
+  background-color: yellow;
+}
+
+.purple {
+  width: 55%;
+  background-color: rgb(132, 119, 218);
+}
+
+@media (max-width: 1200px) {
+  section {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  div {
+    flex: nowrap;
+  }
+}
