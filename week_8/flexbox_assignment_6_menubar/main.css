@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background-color: deepskyblue;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 1rem;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    padding: 0;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+  }
+
+  div > div {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    border-top: 1px rgb(13, 122, 158) solid;
+  }
+} ;
