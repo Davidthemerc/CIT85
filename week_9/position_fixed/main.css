@@ -1,0 +1,47 @@
+body {
+  background-color: green;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  padding: 8rem;
+  border: 5px red solid;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  background-color: darkgreen;
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chip {
+  height: 11vh;
+  width: 11vh;
+  border-radius: 55rem;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  font-size: 3vh;
+  align-items: center;
+  justify-content: center;
+  margin: 0.25rem;
+  outline: 3px white dashed;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.purple {
+  background-color: purple;
+}
