@@ -1,0 +1,12 @@
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border: 1px black solid;
+  margin: 0.5rem;
+}
+
+.relative {
+  position: relative;
+  left: 100px;
+}
