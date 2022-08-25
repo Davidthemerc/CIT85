@@ -1,0 +1,46 @@
+html,
+body,
+header,
+footer,
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div,
+header,
+footer,
+section {
+  height: 25vh;
+}
+
+header {
+  border: 5px blue solid;
+  background-color: gold;
+  width: 100%;
+}
+
+section {
+  border: 5px green solid;
+}
+
+.lightblue {
+  border: 5px black solid;
+  background-color: lightblue;
+  width: 20%;
+  display: inline-block;
+}
+
+.green {
+  border: 5px black solid;
+  background-color: mediumseagreen;
+  width: 80%;
+  display: inline-block;
+}
+
+footer {
+  border: 5px red solid;
+  width: 100%;
+  background-color: purple;
+}

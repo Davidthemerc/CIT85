@@ -1,0 +1,48 @@
+html,
+body,
+header,
+footer,
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div,
+header,
+footer,
+section {
+  height: 25vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  border: 5px blue solid;
+  background-color: gold;
+}
+
+section {
+  border: 5px green solid;
+  display: flex;
+}
+
+.lightblue {
+  border: 5px black solid;
+  background-color: lightblue;
+  flex-grow: 1;
+}
+
+.green {
+  border: 5px black solid;
+  background-color: mediumseagreen;
+  flex-grow: 4;
+}
+
+footer {
+  border: 5px red solid;
+  background-color: purple;
+}
