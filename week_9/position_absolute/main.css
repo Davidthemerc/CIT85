@@ -1,0 +1,23 @@
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border: 1px black solid;
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+.relative {
+  position: relative;
+  left: 110px;
+}
+
+.absolute {
+  position: absolute;
+  left: 0.5rem;
+  top: 110px;
+}
