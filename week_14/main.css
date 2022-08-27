@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  border: 1px black solid;
+  border-radius: 100%;
+  background-color: rgb(56, 111, 175);
+  height: 400px;
+  width: 400px;
+  transition: 1s;
+}
+
+.circle:hover {
+  background-color: yellow;
+  transition: 2s;
+}
