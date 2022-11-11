@@ -8,6 +8,7 @@ html {
   display: flex;
   flex-direction: column;
   width: 100%;
+  background-color: brown;
 }
 
 header {
@@ -62,6 +63,10 @@ li {
 
 .nomargin {
   margin-bottom: 0;
+}
+
+.nopad {
+  padding: 0;
 }
 
 .nomargintop {
@@ -127,6 +132,10 @@ main > p {
   padding: 0.25rem;
 }
 
+.apply {
+  background-color: brown;
+}
+
 .headerlink {
   text-decoration: none;
   padding: 0.5rem;
@@ -141,12 +150,12 @@ label {
   align-items: center;
 }
 
-a:hover {
-  background-color: black;
+a:active {
+  background-color: rgb(29, 25, 25);
 }
 
-.headerlink:hover {
-  background-color: black;
+.headerlink:active {
+  background-color: rgb(29, 25, 25);
 }
 
 footer {
@@ -273,5 +282,16 @@ main > section {
   }
   main {
     margin-top: 305px;
+  }
+}
+@media (max-height: 600px) {
+  .mainsearch {
+    height: 40%;
+  }
+}
+
+@media (max-height: 400px) {
+  .mainsearch {
+    height: 50%;
   }
 }
